@@ -1,0 +1,30 @@
+GET http://localhost:5004/recipes
+
+###
+
+POST http://localhost:5004/recipes
+Content-Type: application/json
+
+{
+    "title": "Pasta",
+    "description": "Pasta with tomato sauce",
+    "name": "Pasta",
+    "ingredients": [
+        {
+        "name": "Pasta",
+        "quantity": 1,
+        "unit": "kg"
+        },
+        {
+        "name": "Tomato sauce",
+        "quantity": 1,
+        "unit": "bottle"
+        }
+    ]
+}
+
+###
+
+GET http://localhost:5004/recipes/filterByIngredient/sauce
+
+###

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/recipe-api-Ucr4y.props" />
+</Project>
